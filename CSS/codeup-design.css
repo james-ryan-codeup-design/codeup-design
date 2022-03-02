@@ -47,12 +47,12 @@ body {
 
 .imageSelectwork{
     width: 15rem;
-    border: rgba(201, 196, 196, 0.3) solid .3rem;
+    border: rgba(201, 196, 196, 0.4) solid .3rem;
 }
 
 .imagesThelast{
     width: 6rem;
-    border: rgba(201, 196, 196, 0.3) solid .3rem;
+    border: rgba(201, 196, 196, 0.4) solid .3rem;
 }
 
 .smallcirclered{
@@ -61,7 +61,7 @@ body {
     height: 1rem;
     background-color: #e6563b;
     color: black;
-    margin: .5rem .5rem;
+    margin: .25rem .25rem;
 }
 .smallcircleyellow{
     border-radius: 50%;
@@ -69,7 +69,7 @@ body {
     height: 1rem;
     background-color: #dea03d;
     color: black;
-    margin: .5rem .5rem;
+    margin: .25rem .25rem;
 }
 
 .smallcirclegreen{
@@ -78,7 +78,7 @@ body {
     height: 1rem;
     background-color: #7cb06c;
     color: black;
-    margin: .5rem .5rem;
+    margin: .25rem .25rem;
 }
 .smallcircleseafoam{
     border-radius: 50%;
@@ -86,5 +86,5 @@ body {
     height: 1rem;
     background-color: #00aba9;
     color: black;
-    margin: .5rem .5rem;
+    margin: .25rem .25rem;
 }
