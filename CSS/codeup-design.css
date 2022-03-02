@@ -44,3 +44,13 @@ body {
     color: white;
     margin: .5rem .5rem;
 }
+
+.imageSelectwork{
+    width: 15rem;
+    border: rgba(201, 196, 196, 0.3) solid .3rem;
+}
+
+.imagesThelast{
+    width: 6rem;
+    border: rgba(201, 196, 196, 0.3) solid .3rem;
+}
