@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="CSS/codeup-design.css">
 </head>
 <body>
-<!--Navbar xs-->
+
 <nav>
-    <div class="row d-flex justify-content-center">
-        <img src="assets/logo.png" id="logo" style="width:8rem ">
+    <!--Navbar xs-->
+    <div class="row d-flex justify-content-center d-sm-none d-block">
+        <img src="assets/logo.png" id="logoxs" style="width:8rem ">
         <!--Stupid White Line-->
         <div class="whiteLine"></div>
         <h2 class="text-center">Codeup Design</h2>
@@ -23,6 +24,22 @@
             <li class="col-3 smallerText text-center">CONTACT</li>
         </ul>
     </div>
+<!--    navbar sm-->
+    <div class="row d-flex justify-content-center d-none d-sm-block d-md-none">
+        <img src="assets/logo.png" id="logosm" style="width:8rem ">
+        <!--Stupid White Line-->
+        <div class="whiteLine d-flex align-items-center">
+            <ul class="col-12 row justify-content-around mb-0 " style="list-style: none">
+            <li class="col-2 smallerText text-center">SERVICES</li>
+            <li class="col-2 smallerText text-center">WORK</li>
+            <li class="col-2"></li>
+            <li class="col-2 smallerText text-center">BLOG</li>
+            <li class="col-2 smallerText text-center">CONTACT</li>
+        </ul></div>
+<!--        <h2 class="text-center">Codeup Design</h2>-->
+
+    </div>
+
 </nav>
 <section class="row">
     <div class="text-center">

@@ -96,7 +96,13 @@ body {
     margin: 2rem 0;
 }
 
-#logo{
+#logoxs{
     position: absolute;
 
+}
+
+#logosm{
+    position: absolute;
+    left: 40%;
+    top: .5rem;
 }
