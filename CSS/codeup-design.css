@@ -5,3 +5,38 @@
 body {
     background-color: lightgray;
 }
+.circlered{
+    border: white solid .5rem ;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    background-color: #f5200b;
+    color: white;
+}
+
+.circleyellow{
+    border: white solid .5rem ;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    background-color: #f5900b;
+    color: white;
+}
+
+.circlegreen{
+    border: white solid .5rem ;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    background-color: #25861b;
+    color: white;
+}
+
+.circleseafoam{
+    border: white solid .5rem ;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    background-color: #07937a;
+    color: white;
+}
