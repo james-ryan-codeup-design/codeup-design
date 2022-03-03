@@ -1,9 +1,26 @@
+#lightdark{
+
+}
+.iconsize{
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+:root{
+    --primary-color:#D3D3D3FF;
+    --secondary-color: #ff7676;
+
+}
+.dark-theme{
+    --primary-color:#ff7676;
+    --secondary-color: #D3D3D3FF;
+}
 .smallerText {
     font-size: .5rem;
 }
 
 body {
-    background-color: lightgray;
+    background-color: var(--primary-color);
 }
 .circlered{
     border: white solid .5rem ;
