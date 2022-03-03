@@ -8,12 +8,13 @@
 }
 :root{
     --primary-color:#D3D3D3FF;
-    --secondary-color: #ff7676;
-
+    --secondary-color: #fff9f9;
+    --tertiary-color: rgba(201, 196, 196, 0.4);
 }
 .dark-theme{
     --primary-color:#ff7676;
-    --secondary-color: #D3D3D3FF;
+    --secondary-color: #7e4cfc;
+    --tertiary-color: rgba(246, 182, 19, 0.89);
 }
 .smallerText {
     font-size: .5rem;
@@ -23,7 +24,7 @@ body {
     background-color: var(--primary-color);
 }
 .circlered{
-    border: white solid .5rem ;
+    border: var(--secondary-color) solid .5rem ;
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
@@ -33,7 +34,7 @@ body {
 }
 
 .circleyellow{
-    border: white solid .5rem ;
+    border: var(--secondary-color) solid .5rem ;
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
@@ -43,7 +44,7 @@ body {
 }
 
 .circlegreen{
-    border: white solid .5rem ;
+    border: var(--secondary-color) solid .5rem ;
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
@@ -53,7 +54,7 @@ body {
 }
 
 .circleseafoam{
-    border: white solid .5rem ;
+    border: var(--secondary-color) solid .5rem ;
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
@@ -65,12 +66,12 @@ body {
 .imageSelectwork{
     width: 15rem;
     height: 10rem;
-    border: rgba(201, 196, 196, 0.4) solid .3rem;
+    border: var(--tertiary-color) solid .3rem;
 }
 
 .imagesThelast{
     width: 6rem;
-    border: rgba(201, 196, 196, 0.4) solid .3rem;
+    border: var(--tertiary-color) solid .3rem;
 }
 
 .smallcirclered{
@@ -108,7 +109,7 @@ body {
 }
 
 .whiteLine{
-    background-color: ghostwhite;
+    background-color: var(--secondary-color);
     width: 100%;
     height: 3rem;
     margin: 2rem 0;
