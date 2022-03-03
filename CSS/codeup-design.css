@@ -113,6 +113,17 @@ position: absolute;
     top: .5rem;
     left:.2rem
 }
+#logolg{
+    position: absolute;
+    top: .5rem;
+    left:1.7rem
+}
+
+#logoxl{
+    position: absolute;
+    top: .5rem;
+    left:4.9rem
+}
 a{
     text-decoration: none;
     color: black;
